@@ -8,11 +8,11 @@
     "test": "playwright test  "
   },
   "dependencies": {
-    "http-server": "^14.1.0",
     "superagent": "^8.0.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.23.1"
+    "@playwright/test": "^1.23.1",
+    "http-server": "^14.1.1"
   },
   "author": "",
   "license": ""
