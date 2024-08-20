@@ -1,0 +1,19 @@
+{
+  "name": "spicyo website",
+  "version": "1.0.0",
+  "description": "A simple website for a restaurant",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node node_modules/http-server/bin/http-server --port 4200",
+    "test": "playwright test  "
+  },
+  "dependencies": {
+    "http-server": "^14.1.0",
+    "superagent": "^8.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.23.1"
+  },
+  "author": "",
+  "license": ""
+}
